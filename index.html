@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -109,7 +113,13 @@ body {
         <img src="Images/Emily Proile Picture.jpg" style="width:100%">
       </div>
       
-      <data src="About Me/Aboutme.txt" style="width:100%">
+      <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+        $("#div1").load("About Me/Aboutme.txt");
+       });
+       });
+      </script>
     
     </div>
     <div class="card">
