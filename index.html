@@ -69,6 +69,12 @@ body {
   display: table;
   clear: both;
 }
+  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* Footer */
 .footer {
@@ -137,14 +143,14 @@ document.write("About Me/aboutme.html");
       </div>  
                    
                    
+--> 
 
 
-
-    <div>
+   <div class="clearfix">
         <iframe style="overflow:hidden; position: absolute; display:block;  
                 src="Blog Posts/Betweenourlungs.html" height=100%; width=100%  scrolling="no" ></iframe>
     </div> 
-               --> 
+               
       
     </div>
   </div>
