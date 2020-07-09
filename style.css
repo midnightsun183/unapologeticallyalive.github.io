@@ -54,10 +54,12 @@ body {
 }
 
 div.posttext {
+	
 	float: left;	
+	
 	text-align: justify;
-  text-justify: inter-word;
-	vertical-align: baseline;
+  	text-justify: inter-word;
+	
 	padding: 10px;
 }
 
