@@ -25,14 +25,6 @@ body {
 }
 
 
-imgfloatleft {
-  float: left;
-}
-
-imgfloatright {
-  float: right;
-}
-
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -62,14 +54,33 @@ body {
   padding-left: 20px;
 }
 
+.blogcard (
+	max-height: 10%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: auto;
+  height: auto;
+	}	
+	
 /* Blog Post Image */
 .postimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 	float: right;
+	height:200px;
 }
-	
+
+/* Blog Post Summary */
+.postshort {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+	float: left;
+	height:200px;
+}
+
 	
 	
 /* Fake image */
@@ -129,13 +140,18 @@ Unapologetically Alive Grey Bar Banner.jpg" style="width:100%" style="height:100
 
 <div class="row">
   <div class="leftcolumn">
-    <div class="card">
+    <div class="blogcard">
       <h2>Between Our Lungs</h2>
       <h5>July 8th, 2020</h5>
-      <div class="postimg" style="height:200px;"><img src="Images/2016/Christmas Eve 2016 (1).jpg"></div>
-      <p>&quot;You know what I really wonder about?&quot; she asked. &quot;Whether he could hear what they said about him. Or hear them laughing. He was conscious for a while, you know. I wonder if he heard them laughing and just gave up. Sometimes, it's hard not to.&quot;</p>
-    </div>
+      <div class="postimg">
+					<img src="Images/2016/Christmas Eve 2016 (1).jpg">
+			</div>
+				<div class ="postshort">
+      		<p>&quot;You know what I really wonder about?&quot; she asked. &quot;Whether he could hear what they said about him. Or hear them laughing. He was conscious for a while, you know. I wonder if he heard them laughing and just gave up. Sometimes, it's hard not to.&quot;</p>
+  			</div>
     <div class="card">
+			
+			
       <h2>new post</h2>
       <h5> info   
 	    </h5>
