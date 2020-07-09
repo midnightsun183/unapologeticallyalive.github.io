@@ -57,6 +57,8 @@ div.posttext {
 	float: right;	
 	text-align: justify;
   text-justify: inter-word;
+	vertical-align: baseline;
+	padding: 10px;
 }
 
 
