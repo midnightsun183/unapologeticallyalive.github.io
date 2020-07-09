@@ -56,7 +56,15 @@ body {
 	float: right;	
 }
 
-div {text-align: center;}
+div.center {
+	text-align: center;
+}
+
+
+div.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /* About Me Image */
 .aboutimg {
