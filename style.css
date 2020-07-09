@@ -66,6 +66,16 @@ div.justify {
   text-justify: inter-word;
 }
 
+
+
+
+/* Clearfix (clears card floats) */
+.card::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* About Me Image */
 .aboutimg {
   background-color: #aaa;
