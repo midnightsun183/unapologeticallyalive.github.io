@@ -79,11 +79,18 @@ img {
   margin-top: 20px;
 }
 	
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
 
-.clearfix {
-  overflow: auto;
-}  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
     
 
 /* Clear floats after the columns */
@@ -123,9 +130,9 @@ img {
       <h2>Between Our Lungs</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg" style="height:200px;"><img src = "Images/2020/Between Our Lungs Image.jpg.jpg">
-			<p>"You know what I really wonder about?" she asked. "Whether he could hear what they said about him. Or hear them laughing. He was conscious for a while, you know. I wonder if he heard them laughing and just gave up. Sometimes, it's hard not to."</p>
+	    </div>
+	    <p>"You know what I really wonder about?" she asked. "Whether he could hear what they said about him. Or hear them laughing. He was conscious for a while, you know. I wonder if he heard them laughing and just gave up. Sometimes, it's hard not to."</p>
 			
-			</div>
       
 			
 			
@@ -135,6 +142,18 @@ img {
     <div class="card">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
+	  <div class="img-container">
+<div class="clearfix">
+  <div class="img-container">
+  <img src="Images/Emily Proile Picture.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="Images/Emily Proile Picture.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="Images/Emily Proile Picture.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
       <div class="fakeimg" style="height:200px;"><img src ="Images/2016/Christmas Eve 2016 (1).jpg"></div>
       <p>Some text..</p>
     </div>
