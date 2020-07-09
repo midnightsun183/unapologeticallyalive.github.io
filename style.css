@@ -52,9 +52,14 @@ body {
 	vertical-align: baseline;
 }
 
-.posttext {
+div.posttext {
 	float: right;	
+	text-align: justify;
+  text-justify: inter-word;
 }
+
+
+
 
 div.center {
 	text-align: center;
