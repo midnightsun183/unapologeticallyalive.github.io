@@ -55,13 +55,11 @@ body {
 
 div.posttext {
 	float: left;	
-	width: 70%;
+	width: 75%;
 	text-align: justify;
-  	text-justify: inter-word;
+  text-justify: inter-word;
 	padding: 10px;
 }
-
-
 
 
 div.center {
