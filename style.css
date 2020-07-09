@@ -50,6 +50,7 @@ body {
   width: 25%;
   padding: 10px;
 	vertical-align: baseline;
+	float: left;
 }
 
 div.posttext {
