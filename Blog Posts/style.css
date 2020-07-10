@@ -53,11 +53,10 @@ body {
 	float: left;
 }
 
-div.posttext {
+p.posttext {
 	text-align: justify;
  	text-justify: inter-word;
-	
-	padding: 10px;
+	padding: 20px;
 }
 
 
