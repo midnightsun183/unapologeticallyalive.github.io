@@ -54,11 +54,9 @@ body {
 }
 
 div.posttext {
-	
-	
 	text-align: justify;
-  text-justify: inter-word;
-	display: inline-block;
+ 	text-justify: inter-word;
+	
 	padding: 10px;
 }
 
