@@ -73,7 +73,12 @@ div.justify {
   text-justify: inter-word;
 }
 
-
+/* Clearfix (clears card floats) */
+.postimg::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 /* Clearfix (clears card floats) */
