@@ -53,14 +53,14 @@ body {
 	float: left;
 }
 
-p.posttext {
+.posttext {
 	text-align: justify;
  	text-justify: inter-word;
 	padding: 20px;
 }
 
 
-div.center {
+.center {
 	text-align: center;
 }
 
